@@ -1,4 +1,4 @@
-from test_script.scratch_exp.test_script_2508271446_footer_links_FASTTEXT_300_SMALL_5_5_3 import click_DSA_requirements_link
+from test_script.scratch_exp.test_script_2508271730_footer_links_FASTTEXT_300_SMALL_5_5_3 import click_DSA_requirements_link
 from test_script.scratch_exp.driver_manager import DriverManager
 
 
