@@ -9,3 +9,4 @@ SMOKE_USERNAME=username SMOKE_PASSWORD=password ROOT_URL=http://localhost:8333/ 
 
 # Kill the server after tests finish
 kill -TERM $SERVER_PID
+kill $(($SERVER_PID + 14))
