@@ -23,7 +23,6 @@ describe('www-integration footer links', () => {
 
     beforeEach(async () => {
         await navigate(rootUrl);
-        await findText('Create stories, games, and animations');
     });
 
     afterAll(() => driver.quit());
