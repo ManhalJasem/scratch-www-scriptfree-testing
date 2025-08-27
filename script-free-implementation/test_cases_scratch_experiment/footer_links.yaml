@@ -1,0 +1,5 @@
+click_DSA_requirements_link:
+  - open "http://localhost:8333/"
+  - click "DSA requirements"
+  - ---
+  - assert string "DSA-PoC@scratch.org" exist
