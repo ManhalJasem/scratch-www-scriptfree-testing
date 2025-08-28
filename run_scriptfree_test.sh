@@ -5,14 +5,14 @@ set -e
 set -u
 set -o pipefail
 
-npm start & SERVER_PID=$!
-sleep 5
+API_HOST=http://localhost:8080/https://api.scratch.mit.edu ASSET_HOST=http://localhost:8080/https://assets.scratch.mit.edu BACKPACK_HOST=http://localhost:8080/https://backpack.scratch.mit.edu PROJECT_HOST=http://localhost:8080/https://projects.scratch.mit.edu FALLBACK=https://scratch.mit.edu npm start & SERVER_PID=$!
+sleep 20
 
 cd script-free-implementation
 pipenv run gen
 pipenv run python3 test_script/scratch_exp/point_runner_to_latest.py
-pipenv run python3 -m test_script.scratch_exp.footer_links_runner.py
+pipenv run python3 -m test_script.scratch_exp.homepage_rows_runner.py
 cd ..
 
-kill -TERM $SERVER_PID
-kill $(($SERVER_PID + 14))
+pkill -TERM node
+pkill chromedriver

@@ -5,9 +5,9 @@ from pathlib import Path
 from datetime import datetime
 
 # Defaults (override with CLI args)
-RUNNER_PATH = Path("test_script/scratch_exp/footer_links_runner.py")
+RUNNER_PATH = Path("test_script/scratch_exp/homepage_rows_runner.py")
 PKG_DIR = Path("test_script/scratch_exp")
-FUNC_NAME = "click_DSA_requirements_link"  # change if your entry function differs
+FUNC_NAME = "featured_studios_link"  # change if your entry function differs
 
 def newest_module(pkg_dir: Path) -> str:
     if not pkg_dir.is_dir():

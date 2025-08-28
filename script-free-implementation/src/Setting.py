@@ -5,10 +5,10 @@ BINARY_LOCATION = "chrome_deps/bin/chrome113"
 CHROMEDRIVER_LOCATION = "chrome_deps/bin/chromedriver113"
 MODEL_LOCATION = "data"
 TESTCASE_DIR = "test_cases_scratch_experiment"
-TESTCASE_FILE = "footer_links"
+TESTCASE_FILE = "homepage_rows"
 APP_SPECIFIC_CHROME_OPTIONS = None
 ALL_TESTCASE = True # Run all test case
-TESTCASES = ["click_DSA_requirements_link"] # test case set to run if ALL_TESTCASE==false
+TESTCASES = ["featured_studios_link"] # test case set to run if ALL_TESTCASE==false
 OUTPUT_DIRECTORY = "test_script/scratch_exp"
 WRITE_LOCATOR = False
 
