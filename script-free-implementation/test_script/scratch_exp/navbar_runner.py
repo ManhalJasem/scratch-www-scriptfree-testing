@@ -1,4 +1,4 @@
-from test_script.scratch_exp.test_script_2508300021_navbar_FASTTEXT_300_SMALL_5_5_3 import search_bar_test
+from test_script.scratch_exp.test_script_2508300027_navbar_FASTTEXT_300_SMALL_5_5_3 import search_bar_test
 from test_script.scratch_exp.driver_manager import DriverManager
 
 
