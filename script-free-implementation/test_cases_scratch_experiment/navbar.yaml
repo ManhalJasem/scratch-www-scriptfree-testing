@@ -1,0 +1,12 @@
+search_bar_test:
+  - open "http://localhost:8333"
+  - enter "cat" in "Search"
+  - click "Search button"
+  - ---
+  - assert element "Search"
+
+create_when_signed_out:
+  - open "http://localhost:8333"
+  - click "Create"
+  - ---
+  - assert element "Scratch Gui"
