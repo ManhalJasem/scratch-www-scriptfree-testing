@@ -11,7 +11,7 @@ sleep 20
 cd script-free-implementation
 pipenv run gen
 pipenv run python3 test_script/scratch_exp/point_runner_to_latest.py
-pipenv run python3 -m test_script.scratch_exp.navbar_runner.py
+pipenv run python3 -m test_script.scratch_exp.navbar_runner
 cd ..
 
 pkill -TERM node
