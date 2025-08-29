@@ -9,4 +9,4 @@ create_when_signed_out:
   - open "http://localhost:8333"
   - click "Create"
   - ---
-  - assert element "Scratch Gui"
+  - assert element "Sprite info gui"
