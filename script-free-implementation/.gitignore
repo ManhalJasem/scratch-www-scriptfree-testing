@@ -1,0 +1,8 @@
+.idea/
+data/wiki-news-300d-1M-subword.bin
+Pipfile.lock
+requirements.txt
+test_script/*/screenshots/**
+test_script/*/logs/*
+chrome-profiles/mm-chrome-profile/*
+chrome_deps/*

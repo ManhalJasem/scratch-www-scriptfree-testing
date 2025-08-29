@@ -1,0 +1,6 @@
+search_bar_test:
+  - open "http://localhost:8333"
+  - enter "cat" in "Search"
+  - click "Search button"
+  - ---
+  - assert element "Search"

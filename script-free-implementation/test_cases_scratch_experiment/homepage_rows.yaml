@@ -1,0 +1,5 @@
+featured_studios_link:
+  - open "http://localhost:8333"
+  - click "thumbnail image"
+  - ---
+  - assert element "Studio info"
