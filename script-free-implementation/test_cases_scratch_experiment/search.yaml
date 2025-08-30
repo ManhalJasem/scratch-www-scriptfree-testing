@@ -1,0 +1,6 @@
+switching_to_studios_maintains_search_string:
+  - open "http://localhost:8333"
+  - enter "100% pen" in "Search"
+  - click "Search button"
+  - ---
+  - click "Studios"
