@@ -49,7 +49,7 @@ describe('www-integration search', () => {
         await searchBar.sendKeys(`100% pen${getKey('ENTER')}`);
 
         // switch to studios tab
-        await clickXpath('//button//*[contains(text(),"Studios")]');
+        clickXpath('//a/li/span[contains(text(),"Studios")]');
 
         // check url
         const url = await driver.getCurrentUrl();
