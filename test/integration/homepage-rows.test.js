@@ -52,7 +52,7 @@ describe('www-integration project rows', () => {
     test('Featured Studios link', async () => {
         await clickXpath('//div[@class="box"][descendant::text()="Featured Studios"]' +
         '//div[contains(@class, "thumbnail")][1]/a[@class="thumbnail-image"]');
-        let galleryInfo = await findByXpath('//div[contains(@class, "gallery-info")]');
+        let galleryInfo = await findByXpath('//div[contains(@class, "gallery-info")]'); // In this case the test was developed incorrectly from beginning. So it fails also in this branch.
         let galleryInfoDisplayed = await galleryInfo.isDisplayed();
         await expect(galleryInfoDisplayed).toBe(true);
     });
