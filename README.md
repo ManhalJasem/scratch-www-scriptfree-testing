@@ -84,7 +84,7 @@ The table below summarizes the commits related to locator changes and their outc
 
 | Before app change (baseline)   | After app change, **before** locator change   | After app change **and** locator change   | Impacted files/tests (examples)      |
 | ------------------------------- | --------------------------------------------- | ----------------------------------------- | ------------------------------------ |
-| `before_app_change_<sha>`       | `after_app_change_before_locator_change_<sha>`| `after_app_change_and_locator_change_<sha>`| `ui/LoginTest.js, ui/ProfileTest.js` |
+| `before_app_change_<sha>[first six letters]`       | `after_app_change_before_locator_change_<sha>`| `after_app_change_and_locator_change_<sha>`| `ui/LoginTest.js, ui/ProfileTest.js` |
 
 **Descriptions**
 
