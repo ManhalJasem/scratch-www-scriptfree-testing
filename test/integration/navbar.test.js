@@ -56,7 +56,7 @@ describe('www-integration navbar links', () => {
 
     test('create when signed out', async () => {
         await clickXpath('//li[@class="link create"]');
-        let infoArea = await findByXpath('//div[@class="sprite-info_sprite-info_3EyZh box_box_2jjDp"]');
+        let infoArea = await findByXpath('//div[@class="sprite-info_sprite-info_3EyZh box_box_2jjDp"]'); // the locator change changes the whole element
         let areaVisible = await infoArea.isDisplayed();
         await expect(areaVisible).toBe(true);
     });
